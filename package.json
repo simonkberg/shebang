@@ -1,0 +1,31 @@
+{
+  "name": "shebang",
+  "version": "1.0.0",
+  "private": true,
+  "description": "shebang.consulting",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonkberg/shebang"
+  },
+  "license": "MIT",
+  "author": "Simon Kjellberg <simon.kjellberg@gmail.com>",
+  "scripts": {
+    "build": "gatsby build",
+    "format": "prettier --write 'src/**/*.js'",
+    "start": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "emotion": "^9.2.4",
+    "emotion-server": "^9.2.4",
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-emotion": "^1.1.17",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "react-emotion": "^9.2.4",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  }
+}

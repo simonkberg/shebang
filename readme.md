@@ -1,0 +1,5 @@
+# shebang.consulting
+
+```js
+// TODO
+```
