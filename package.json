@@ -21,6 +21,7 @@
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-emotion": "^1.1.17",
+    "gatsby-plugin-netlify": "^1.0.21",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "react-emotion": "^9.2.4",
     "react-helmet": "^5.2.0"
