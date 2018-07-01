@@ -20,18 +20,21 @@ injectGlobal`
 
   @font-face {
     font-family: 'Iosevka';
+    font-display: fallback;
     src: url('${iosevkaWoff2}') format('woff2'), url('${iosevkaWoff}') format('woff2');
   }
 
   @font-face {
     font-family: 'Iosevka';
     font-style: italic;
+    font-display: fallback;
     src: url('${iosevkaItalicWoff2}') format('woff2'), url('${iosevkaItalicWoff}') format('woff2');
   }
 
   @font-face {
     font-family: 'Iosevka';
     font-weight: 700;
+    font-display: fallback;
     src: url('${iosevkaBoldWoff2}') format('woff2'), url('${iosevkaBoldWoff}') format('woff2');
   }
 
@@ -39,6 +42,7 @@ injectGlobal`
     font-family: 'Iosevka';
     font-weight: 700;
     font-style: italic;
+    font-display: fallback;
     src: url('${iosevkaBoldItalicWoff2}') format('woff2'), url('${iosevkaBoldItalicWoff}') format('woff2');
   }
 
@@ -57,9 +61,10 @@ const Content = styled('div')`
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
+      htmlAttributes={{ lang: 'en' }}
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: data.site.siteMetadatadescription },
+        { name: 'description', content: data.site.siteMetadata.description },
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
