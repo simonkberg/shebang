@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "@simonkberg/eslint-config",
+    "@simonkberg/eslint-config/react",
+    "@simonkberg/eslint-config/flowtype"
+  ],
+  "globals": {
+    "graphql": false
+  }
+}

@@ -1,3 +1,4 @@
+// @flow strict
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'react-emotion'
@@ -25,7 +26,11 @@ const StyledLink = styled(Link)`
   text-decoration: none;
 `
 
-const Header = ({ siteTitle }) => (
+type Props = {
+  siteTitle: string,
+}
+
+const Header = ({ siteTitle }: Props) => (
   <Wrapper>
     <Container>
       <Title>

@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+// @flow strict
+import * as React from 'react'
 import Helmet from 'react-helmet'
 import { injectGlobal } from 'emotion'
 import styled from 'react-emotion'
@@ -41,7 +41,19 @@ const Content = styled('div')`
   padding-top: 0;
 `
 
-const Layout = ({ children, data }) => (
+type Props = {
+  children: () => React.Node,
+  data: {
+    site: {
+      siteMetadata: {
+        title: string,
+        description: string,
+      },
+    },
+  },
+}
+
+const Layout = ({ children, data }: Props) => (
   <div>
     <Helmet
       htmlAttributes={{ lang: 'en' }}
@@ -56,12 +68,9 @@ const Layout = ({ children, data }) => (
   </div>
 )
 
-Layout.propTypes = {
-  children: PropTypes.func,
-}
-
 export default Layout
 
+// $FlowFixMe: resolve in gatsby v2
 export const query = graphql`
   query SiteMetadataQuery {
     site {
