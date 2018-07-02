@@ -50,10 +50,6 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: data.site.siteMetadata.description },
         { name: 'theme-color', content: '#000000' },
       ]}
-      link={[
-        { rel: 'preload', href: iosevkaWoff2, as: 'font' },
-        { rel: 'preload', href: iosevkaBoldWoff2, as: 'font' },
-      ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
     <Content>{children()}</Content>
