@@ -25,7 +25,8 @@
     "gatsby-plugin-offline": "^1.0.18",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "react-emotion": "^9.2.4",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "sanitize.css": "^6.0.0"
   },
   "devDependencies": {
     "prettier": "^1.12.0"
