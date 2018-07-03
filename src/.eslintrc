@@ -6,5 +6,8 @@
   ],
   "globals": {
     "graphql": false
+  },
+  "rules": {
+    "import/no-webpack-loader-syntax": 0
   }
 }
