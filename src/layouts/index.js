@@ -5,10 +5,11 @@ import { injectGlobal } from 'emotion'
 import styled from 'react-emotion'
 
 import Header from '../components/header'
-import iosevkaWoff from '../fonts/iosevka-ss08-regular.woff'
-import iosevkaWoff2 from '../fonts/iosevka-ss08-regular.woff2'
-import iosevkaBoldWoff from '../fonts/iosevka-ss08-bold.woff'
-import iosevkaBoldWoff2 from '../fonts/iosevka-ss08-bold.woff2'
+import iosevkaWoff from '../assets/iosevka-ss08-regular.woff'
+import iosevkaWoff2 from '../assets/iosevka-ss08-regular.woff2'
+import iosevkaBoldWoff from '../assets/iosevka-ss08-bold.woff'
+import iosevkaBoldWoff2 from '../assets/iosevka-ss08-bold.woff2'
+import favicon from '../assets/favicon.ico'
 import sanitize from 'sanitize.css'
 
 injectGlobal`
@@ -62,6 +63,7 @@ const Layout = ({ children, data }: Props) => (
         { name: 'description', content: data.site.siteMetadata.description },
         { name: 'theme-color', content: '#000000' },
       ]}
+      link={[{ rel: 'shortcut icon', href: favicon }]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
     <Content>{children()}</Content>
