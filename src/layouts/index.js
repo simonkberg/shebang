@@ -31,13 +31,13 @@ injectGlobal`
   }
 
   :root {
-    font-family: Iosevka, monospace;
+    font: 100%/1.5 Iosevka, monospace;
   }
 `
 
 const Content = styled('div')`
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 48rem;
   padding: 0 1.0875rem 1.45rem;
   padding-top: 0;
 `
@@ -58,7 +58,8 @@ const Layout = ({ children, data }: Props) => (
   <div>
     <Helmet
       htmlAttributes={{ lang: 'en' }}
-      title={data.site.siteMetadata.title}
+      titleTemplate={`%s – ${data.site.siteMetadata.title}`}
+      defaultTitle={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: data.site.siteMetadata.description },
         { name: 'theme-color', content: '#000000' },
@@ -74,7 +75,7 @@ export default Layout
 
 // $FlowFixMe: resolve in gatsby v2
 export const query = graphql`
-  query SiteMetadataQuery {
+  query LayoutQuery {
     site {
       siteMetadata {
         title

@@ -5,13 +5,19 @@ import styled from 'react-emotion'
 const Link = styled('a')`
   color: inherit;
 `
+type Props = {
+  data: {
+    site: {
+      siteMetadata: {
+        description: string,
+      },
+    },
+  },
+}
 
-const IndexPage = () => (
+const IndexPage = ({ data }: Props) => (
   <div>
-    <p>
-      Fullstack web consulting, specialized in React, Node.js, GraphQL and
-      frontend architecture.
-    </p>
+    <p>{data.site.siteMetadata.description}</p>
     <p>
       For inquires contact{' '}
       <Link href="mailto:simon@shebang.consulting">
@@ -22,3 +28,14 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+// $FlowFixMe: resolve in gatsby v2
+export const query = graphql`
+  query IndexPageQuery {
+    site {
+      siteMetadata {
+        description
+      }
+    }
+  }
+`
