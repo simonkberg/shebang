@@ -2,9 +2,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: '#!/shebang consulting',
+    title: 'Shebang Consulting',
     description:
-      'Fullstack web consulting, specialized in React, Node.js, GraphQL and frontend architecture.',
+      'Fullstack web consulting, specialized in React, Node.js, and GraphQL, with a strong focus on building scalable frontend architecture.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

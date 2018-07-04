@@ -11,7 +11,7 @@ const Wrapper = styled('header')`
 
 const Container = styled('div')`
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 48rem;
   padding: 1.45rem 1.0875rem;
 `
 
@@ -19,6 +19,7 @@ const Title = styled('h1')`
   font-size: 1rem;
   font-weight: bold;
   margin: 0;
+  text-transform: lowercase;
 `
 
 const StyledLink = styled(Link)`
@@ -34,7 +35,7 @@ const Header = ({ siteTitle }: Props) => (
   <Wrapper>
     <Container>
       <Title>
-        <StyledLink to="/">{siteTitle}</StyledLink>
+        <StyledLink to="/">#!/{siteTitle}</StyledLink>
       </Title>
     </Container>
   </Wrapper>
