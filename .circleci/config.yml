@@ -19,6 +19,6 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ arch }}-{{ checksum "package.json" }}
+          key: v1-dependencies-{{ arch }}-{{ checksum "yarn.lock" }}
 
       - run: yarn test
