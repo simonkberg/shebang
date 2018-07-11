@@ -20,7 +20,7 @@ injectGlobal`
     font-family: 'Iosevka';
     font-display: fallback;
     src: url('${iosevkaWoff2}') format('woff2'),
-      url('${iosevkaWoff}') format('woff2');
+      url('${iosevkaWoff}') format('woff');
   }
 
   @font-face {
@@ -28,7 +28,7 @@ injectGlobal`
     font-weight: 700;
     font-display: fallback;
     src: url('${iosevkaBoldWoff2}') format('woff2'),
-      url('${iosevkaBoldWoff}') format('woff2');
+      url('${iosevkaBoldWoff}') format('woff');
   }
 
   :root {
