@@ -35,7 +35,10 @@ const Header = ({ siteTitle }: Props) => (
   <Wrapper>
     <Container>
       <Title>
-        <StyledLink to="/">#!/{siteTitle}</StyledLink>
+        <StyledLink to="/">
+          #!/
+          {siteTitle}
+        </StyledLink>
       </Title>
     </Container>
   </Wrapper>
