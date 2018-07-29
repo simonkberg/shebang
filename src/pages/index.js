@@ -22,7 +22,8 @@ const IndexPage = ({ data }: Props) => (
       For inquires contact{' '}
       <Link href="mailto:simon@shebang.consulting">
         simon@shebang.consulting
-      </Link>.
+      </Link>
+      .
     </p>
   </div>
 )
