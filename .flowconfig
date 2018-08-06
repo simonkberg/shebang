@@ -8,5 +8,6 @@
 
 [options]
 module.name_mapper='.*\.ico$' -> '<PROJECT_ROOT>/flow/stub/url-loader.js'
+module.name_mapper='^!?!?raw-loader!.+$' -> '<PROJECT_ROOT>/flow/stub/raw-loader.js'
 
 [strict]

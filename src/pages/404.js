@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react'
 import styled from 'react-emotion'
+import Layout from '../components/layout'
 
 const Title = styled('h2')`
   font-size: 1rem;
@@ -11,13 +12,17 @@ const SubTitle = styled('span')`
   font-weight: normal;
 `
 
-const NotFoundPage = () => (
-  <div>
+type Props = {
+  location: { pathname: string },
+}
+
+const NotFoundPage = ({ location }: Props) => (
+  <Layout location={location}>
     <Title>
       /dev/null
       <SubTitle> - 404 Not Found</SubTitle>
     </Title>
-  </div>
+  </Layout>
 )
 
 export default NotFoundPage
