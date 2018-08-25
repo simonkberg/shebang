@@ -7831,9 +7831,9 @@ safe-regex@^1.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
-sanitize.css@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-7.0.0.tgz#b584cea52612b0340a398ba3992213f65d981000"
+sanitize.css@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-7.0.1.tgz#fded48dd9d91f64afcbce4997b0d8add689c8aff"
 
 sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
