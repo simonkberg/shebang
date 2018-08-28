@@ -100,6 +100,20 @@ const Layout = ({ children, location }: Props) => (
             link={[
               { rel: 'shortcut icon', href: favicon },
               { rel: 'canonical', href: canonicalUrl },
+              {
+                rel: 'preload',
+                href: iosevkaWoff2,
+                as: 'font',
+                type: 'font/woff2',
+                crossOrigin: 'anonymous',
+              },
+              {
+                rel: 'preload',
+                href: iosevkaBoldWoff2,
+                as: 'font',
+                type: 'font/woff2',
+                crossOrigin: 'anonymous',
+              },
             ]}
           />
           <Header siteTitle={data.site.siteMetadata.title} />
