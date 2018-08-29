@@ -647,6 +647,12 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.0.0.tgz#adeb78fedfc855aa05bc041640f3f6f98e85424c"
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
 "@babel/template@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.0.0-beta.44.tgz#f8832f4fdcee5d59bf515e595fc5106c529b394f"
@@ -4219,12 +4225,12 @@ gatsby-plugin-emotion@2.0.0-rc.0:
   dependencies:
     "@babel/runtime" "7.0.0-beta.52"
 
-gatsby-plugin-flow@1.0.1-rc.0:
-  version "1.0.1-rc.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-flow/-/gatsby-plugin-flow-1.0.1-rc.0.tgz#5593d5ee4b473f738f7ef2ecb039e15e1161d6be"
+gatsby-plugin-flow@1.0.1-rc.1:
+  version "1.0.1-rc.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-flow/-/gatsby-plugin-flow-1.0.1-rc.1.tgz#1efbc1d8c448d70b6e25444566f83fd1e4cb612e"
   dependencies:
     "@babel/preset-flow" "^7.0.0-rc.1"
-    "@babel/runtime" "7.0.0-beta.52"
+    "@babel/runtime" "^7.0.0"
 
 gatsby-plugin-netlify@2.0.0-rc.0:
   version "2.0.0-rc.0"
