@@ -56,8 +56,8 @@
     "sanitize.css": "7.0.1"
   },
   "devDependencies": {
-    "@simonkberg/eslint-config": "9.1.0",
-    "eslint": "4.19.1",
+    "@simonkberg/eslint-config": "10.0.0",
+    "eslint": "5.4.0",
     "flow-bin": "0.79.1",
     "husky": "0.14.3",
     "lint-staged": "7.2.2",
