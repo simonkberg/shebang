@@ -86,7 +86,7 @@ const Layout = ({ children, location }: Props) => (
             titleTemplate={`%s – ${data.site.siteMetadata.title}`}
             defaultTitle={data.site.siteMetadata.title}
             meta={[
-              { name: 'theme-color', content: '#000000' },
+              { name: 'theme-color', content: '#151515' },
               { property: 'og:url', content: canonicalUrl },
               { property: 'og:type', content: 'website' },
               { property: 'og:title', content: data.site.siteMetadata.title },

@@ -14,5 +14,17 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
     'gatsby-plugin-flow',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Shebang Consulting',
+        short_name: 'Shebang',
+        start_url: '/',
+        background_color: '#151515',
+        theme_color: '#151515',
+        display: 'minimal-ui',
+        icon: 'src/assets/icon.png',
+      },
+    },
   ],
 }
