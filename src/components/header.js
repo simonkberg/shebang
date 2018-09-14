@@ -5,7 +5,7 @@ import styled from 'react-emotion'
 
 const Wrapper = styled('header')`
   color: #fff;
-  background: #000;
+  background: #151515;
   margin-bottom: '1.45rem';
 `
 
