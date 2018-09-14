@@ -4314,7 +4314,7 @@ gatsby-plugin-flow@1.0.1-rc.1:
     "@babel/preset-flow" "^7.0.0-rc.1"
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-manifest@^1.0.27:
+gatsby-plugin-manifest@1.0.27:
   version "1.0.27"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-1.0.27.tgz#148327ebfaf9a0a6791012cc5b5363356ee16ddf"
   dependencies:
