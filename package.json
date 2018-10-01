@@ -43,8 +43,8 @@
     ]
   },
   "dependencies": {
-    "emotion": "9.2.10",
-    "emotion-server": "9.2.10",
+    "emotion": "9.2.12",
+    "emotion-server": "9.2.12",
     "gatsby": "2.0.12",
     "gatsby-plugin-emotion": "2.0.5",
     "gatsby-plugin-flow": "1.0.1",
@@ -56,7 +56,7 @@
     "prop-types": "15.6.2",
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "react-emotion": "9.2.10",
+    "react-emotion": "9.2.12",
     "react-helmet": "5.2.0",
     "sanitize.css": "7.0.3"
   },
