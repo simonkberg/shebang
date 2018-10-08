@@ -58,7 +58,7 @@
     "react-dom": "16.5.2",
     "react-emotion": "9.2.12",
     "react-helmet": "5.2.0",
-    "sanitize.css": "7.0.3"
+    "sanitize.css": "8.0.0"
   },
   "devDependencies": {
     "@simonkberg/eslint-config": "10.0.0",
