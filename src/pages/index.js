@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 const Link = styled('a')`
   color: inherit;
 `
+
 type Props = {
   data: {
     site: {
@@ -18,15 +19,16 @@ type Props = {
   location: { pathname: string },
 }
 
+const email = 'simon@shebang.consulting'
+const website = 'simonkjellberg.com'
+
 const IndexPage = ({ data, location }: Props) => (
   <Layout location={location}>
     <p>{data.site.siteMetadata.description}</p>
+    <p>Located in Stockholm, Sweden.</p>
     <p>
-      For inquires contact{' '}
-      <Link href="mailto:simon@shebang.consulting">
-        simon@shebang.consulting
-      </Link>
-      .
+      For inquires contact <Link href={`mailto:${email}`}>{email}</Link> or
+      visit <Link href={`https://${website}`}>{website}</Link>.
     </p>
   </Layout>
 )
