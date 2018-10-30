@@ -63,7 +63,7 @@
   "devDependencies": {
     "@simonkberg/eslint-config": "10.1.0",
     "eslint": "5.8.0",
-    "flow-bin": "0.84.0",
+    "flow-bin": "0.85.0",
     "husky": "1.1.2",
     "lint-staged": "8.0.2",
     "prettier": "1.14.3"
