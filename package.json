@@ -64,7 +64,7 @@
     "@simonkberg/eslint-config": "10.1.0",
     "eslint": "5.9.0",
     "flow-bin": "0.86.0",
-    "husky": "1.1.4",
+    "husky": "1.2.0",
     "lint-staged": "8.0.5",
     "prettier": "1.15.2"
   }
