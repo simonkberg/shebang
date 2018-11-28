@@ -1,8 +1,8 @@
 // @flow strict
 import * as React from 'react'
 import Helmet from 'react-helmet'
-import { injectGlobal } from 'emotion'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
+import { Global, css } from '@emotion/core'
 import { StaticQuery, graphql } from 'gatsby'
 import sanitize from '!raw-loader!sanitize.css'
 
@@ -14,7 +14,7 @@ import fbShareImage from '../assets/facebook.png'
 import favicon from '../assets/favicon.ico'
 import Header from './header'
 
-injectGlobal`
+const globalStyles = css`
   ${sanitize};
 
   @font-face {
@@ -81,6 +81,7 @@ const Layout = ({ children, location }: Props) => (
 
       return (
         <div>
+          <Global styles={globalStyles} />
           <Helmet
             htmlAttributes={{ lang: 'en' }}
             titleTemplate={`%s – ${data.site.siteMetadata.title}`}
