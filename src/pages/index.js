@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
