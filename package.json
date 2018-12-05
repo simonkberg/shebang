@@ -43,8 +43,8 @@
     ]
   },
   "dependencies": {
-    "@emotion/core": "10.0.2",
-    "@emotion/styled": "10.0.2",
+    "@emotion/core": "10.0.3",
+    "@emotion/styled": "10.0.3",
     "gatsby": "2.0.63",
     "gatsby-plugin-flow": "1.0.2",
     "gatsby-plugin-manifest": "2.0.11",
@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@simonkberg/eslint-config": "11.0.0",
-    "babel-plugin-emotion": "10.0.2",
+    "babel-plugin-emotion": "10.0.3",
     "eslint": "5.9.0",
     "flow-bin": "0.87.0",
     "husky": "1.2.0",
