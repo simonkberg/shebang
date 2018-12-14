@@ -16,7 +16,7 @@
     "prettier:check": "prettier --list-different '**/*.{js,json,md}'",
     "prettier:format": "prettier --write '**/*.{js,json,md}'",
     "start": "gatsby develop",
-    "test": "flow && yarn eslint:check && yarn prettier:check"
+    "test": "flow check && yarn eslint:check && yarn prettier:check"
   },
   "husky": {
     "hooks": {
@@ -62,7 +62,7 @@
     "@simonkberg/eslint-config": "11.0.0",
     "babel-plugin-emotion": "10.0.5",
     "eslint": "5.10.0",
-    "flow-bin": "0.88.0",
+    "flow-bin": "0.89.0",
     "husky": "1.2.1",
     "lint-staged": "8.1.0",
     "prettier": "1.15.3"
