@@ -1,5 +1,11 @@
 [ignore]
 
+[untyped]
+<PROJECT_ROOT>/node_modules/@emotion/.*
+
+[declarations]
+<PROJECT_ROOT>/node_modules/@emotion/.*
+
 [include]
 
 [libs]
