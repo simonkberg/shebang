@@ -53,8 +53,8 @@
     "gatsby-plugin-react-helmet": "3.0.4",
     "gatsby-plugin-sitemap": "2.0.3",
     "prop-types": "15.6.2",
-    "react": "16.6.3",
-    "react-dom": "16.6.3",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
     "react-helmet": "5.2.0",
     "sanitize.css": "8.0.0"
   },
