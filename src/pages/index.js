@@ -20,7 +20,7 @@ type Props = {
 }
 
 const email = 'simon@shebang.consulting'
-const website = 'simonkjellberg.com'
+const website = 'simon.dev'
 
 const IndexPage = ({ data, location }: Props) => (
   <Layout location={location}>
@@ -35,7 +35,6 @@ const IndexPage = ({ data, location }: Props) => (
 
 export default IndexPage
 
-// $FlowFixMe: resolve in gatsby v2
 export const query = graphql`
   query IndexPageQuery {
     site {
