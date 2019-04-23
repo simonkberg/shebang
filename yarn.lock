@@ -4350,10 +4350,10 @@ gatsby-link@^2.0.16:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
-gatsby-plugin-flow@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-flow/-/gatsby-plugin-flow-1.0.4.tgz#13a93a734115fb595fc725c319c47a007841d94d"
-  integrity sha512-HUFDiZIBEU6ZM6gOytKdX0FtgpZyw3vycZwGdY4Y6rtins9iXrfNmnh0pMyb8jVmCWUlxSPu+LMt14sm1QVDOg==
+gatsby-plugin-flow@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-flow/-/gatsby-plugin-flow-1.0.5.tgz#1078160648cce0d91610fe37721fd78cae904705"
+  integrity sha512-LAyvG7+UJpiNyvDFXXVz2/HHHO3fe44d9HcUi0uh1s8rwkD9FfjlGN98rL26fOFtVl2GDtl9EfhCkmuM02PlyA==
   dependencies:
     "@babel/preset-flow" "^7.0.0-rc.1"
     "@babel/runtime" "^7.0.0"
