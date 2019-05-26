@@ -927,10 +927,10 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@simonkberg/eslint-config@13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@simonkberg/eslint-config/-/eslint-config-13.0.0.tgz#24281d4b32b2bc4456617318f36877895fed9d62"
-  integrity sha512-00fiiJLfdQBGo2UsbNE++BNb6GwNrH+CngQcDjY65Q/XOM6p1R5ELwhSPz5Aoqyxc9/yygQhLLG8krqYrphtZQ==
+"@simonkberg/eslint-config@13.0.1":
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/@simonkberg/eslint-config/-/eslint-config-13.0.1.tgz#1edf4d75a841c1e3c3f8f84973cf8b066e051299"
+  integrity sha512-P4WvQbiP3WTdfTytr/ucBnZ4bF5O5uyD8RziEp5g993t6BQrVXInPlcQgMB3lKqUVlxsy4XIJSqxX+WViInkFg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^1.9.0"
     "@typescript-eslint/parser" "^1.9.0"
