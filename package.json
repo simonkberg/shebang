@@ -63,7 +63,7 @@
     "babel-plugin-emotion": "10.0.13",
     "eslint": "5.16.0",
     "flow-bin": "0.101.0",
-    "husky": "2.4.0",
+    "husky": "2.4.1",
     "lint-staged": "8.2.0",
     "prettier": "1.18.2"
   }
