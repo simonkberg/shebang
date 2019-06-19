@@ -4495,10 +4495,10 @@ g-status@^2.0.2:
     matcher "^1.0.0"
     simple-git "^1.85.0"
 
-gatsby-cli@^2.6.10:
-  version "2.6.10"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.6.10.tgz#ce727ccd907b4dd33100714a40f85679c189ce9d"
-  integrity sha512-5jXC4PmNK4eKSaLmHwUvMF+Pa2um8j/Te01KN4p2KEC60FddUbgAg3B+nZAlPeXbuJKuulna6wndA/6PjQa9ag==
+gatsby-cli@^2.6.11:
+  version "2.6.11"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.6.11.tgz#5c45fad77fa63dbab3d244f9e120218fa6732e2b"
+  integrity sha512-5RzfPbE9/eW71VBEel4D4aCwkE6Sd/Hz+7Ts3Ur5Is10znP2Y5N9kzTFfvKFR4lXrQOomhzHt+dmkZsaDyi5oQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/runtime" "^7.0.0"
@@ -4523,6 +4523,7 @@ gatsby-cli@^2.6.10:
     object.entries "^1.1.0"
     opentracing "^0.14.3"
     pretty-error "^2.1.1"
+    progress "^2.0.3"
     prompts "^2.1.0"
     react "^16.8.4"
     resolve-cwd "^2.0.0"
@@ -4655,10 +4656,10 @@ gatsby-telemetry@^1.0.12:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby@2.9.7:
-  version "2.9.7"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.9.7.tgz#bda2fa9ebbdaabeedb25de74c925d6e2c6665091"
-  integrity sha512-Z4QQs7WAPbRxmSfOjJdbVwByTtXwk1oDWFsA9LHG0LURCpqkpqEAmdAS82G4JwYSKjciqDvRzE0aKwAJ54wjDw==
+gatsby@2.9.8:
+  version "2.9.8"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.9.8.tgz#9b024f365918c6f88fde03875eb117a934abaf9d"
+  integrity sha512-qYTab2Smf3onvJjiZpR+J07HDl9HekhyBJCNt9mM9f9J6KkAUwQdsmTqPFRpCJtSx0oOTq3SXRQ739lKuCWBKg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -4716,7 +4717,7 @@ gatsby@2.9.7:
     flat "^4.0.0"
     fs-exists-cached "1.0.0"
     fs-extra "^5.0.0"
-    gatsby-cli "^2.6.10"
+    gatsby-cli "^2.6.11"
     gatsby-graphiql-explorer "^0.1.2"
     gatsby-link "^2.1.1"
     gatsby-plugin-page-creator "^2.0.13"
@@ -8133,7 +8134,7 @@ process@~0.5.1:
   resolved "https://registry.yarnpkg.com/process/-/process-0.5.2.tgz#1638d8a8e34c2f440a91db95ab9aeb677fc185cf"
   integrity sha1-FjjYqONML0QKkduVq5rrZ3/Bhc8=
 
-progress@^2.0.0:
+progress@^2.0.0, progress@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
