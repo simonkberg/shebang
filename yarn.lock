@@ -4495,10 +4495,10 @@ g-status@^2.0.2:
     matcher "^1.0.0"
     simple-git "^1.85.0"
 
-gatsby-cli@^2.6.11:
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.6.11.tgz#5c45fad77fa63dbab3d244f9e120218fa6732e2b"
-  integrity sha512-5RzfPbE9/eW71VBEel4D4aCwkE6Sd/Hz+7Ts3Ur5Is10znP2Y5N9kzTFfvKFR4lXrQOomhzHt+dmkZsaDyi5oQ==
+gatsby-cli@^2.6.12:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.6.12.tgz#22e2e99df00a6c273061693e3b81e8637ac982bb"
+  integrity sha512-Ed1oM9ahiI32iO47QgcIw1hBLeroqVFURjrNCHebOWEVJcTS1JaslcACJWN2Hq5OUyHC42hN7bDKU6IkmGe/Uw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/runtime" "^7.0.0"
@@ -4656,10 +4656,10 @@ gatsby-telemetry@^1.0.12:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby@2.9.8:
-  version "2.9.8"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.9.8.tgz#9b024f365918c6f88fde03875eb117a934abaf9d"
-  integrity sha512-qYTab2Smf3onvJjiZpR+J07HDl9HekhyBJCNt9mM9f9J6KkAUwQdsmTqPFRpCJtSx0oOTq3SXRQ739lKuCWBKg==
+gatsby@2.9.9:
+  version "2.9.9"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.9.9.tgz#9a435ca5751b0958bc764b8eb801356158e47c0e"
+  integrity sha512-jAAMCn7NNeymwTQ2+EcpWQmwbOEjd6RiBAxc7aBvfSg3PDJUG50bCeWC9TaYC81hiHq3XSHgJLDB+02BSJmjkw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -4717,7 +4717,7 @@ gatsby@2.9.8:
     flat "^4.0.0"
     fs-exists-cached "1.0.0"
     fs-extra "^5.0.0"
-    gatsby-cli "^2.6.11"
+    gatsby-cli "^2.6.12"
     gatsby-graphiql-explorer "^0.1.2"
     gatsby-link "^2.1.1"
     gatsby-plugin-page-creator "^2.0.13"
