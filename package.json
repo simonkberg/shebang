@@ -59,7 +59,7 @@
     "sanitize.css": "11.0.0"
   },
   "devDependencies": {
-    "@simonkberg/eslint-config": "16.0.0",
+    "@simonkberg/eslint-config": "17.0.0",
     "babel-plugin-emotion": "10.0.16",
     "eslint": "6.2.1",
     "flow-bin": "0.105.2",
