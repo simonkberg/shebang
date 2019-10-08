@@ -45,11 +45,11 @@
   "dependencies": {
     "@emotion/core": "10.0.21",
     "@emotion/styled": "10.0.17",
-    "gatsby": "2.15.29",
+    "gatsby": "2.15.31",
     "gatsby-plugin-flow": "1.1.9",
     "gatsby-plugin-manifest": "2.2.20",
     "gatsby-plugin-netlify": "2.1.17",
-    "gatsby-plugin-offline": "3.0.11",
+    "gatsby-plugin-offline": "3.0.12",
     "gatsby-plugin-react-helmet": "3.1.10",
     "gatsby-plugin-sitemap": "2.2.16",
     "prop-types": "15.7.2",
