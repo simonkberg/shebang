@@ -13,8 +13,8 @@
     "build": "gatsby build",
     "eslint:check": "eslint .",
     "eslint:fix": "eslint . --fix",
-    "prettier:check": "prettier --list-different '**/*.{js,json,md}'",
-    "prettier:format": "prettier --write '**/*.{js,json,md}'",
+    "prettier:check": "prettier --list-different '**/*.{js?(on),md,y?(a)ml}'",
+    "prettier:format": "prettier --write '**/*.{js?(on),md,y?(a)ml}'",
     "start": "gatsby develop",
     "test": "flow check && yarn eslint:check && yarn prettier:check"
   },
@@ -27,12 +27,10 @@
     "*.js": [
       "eslint --fix",
       "prettier --write",
-      "flow focus-check",
-      "git add"
+      "flow focus-check"
     ],
-    "*.{json,md}": [
-      "prettier --write",
-      "git add"
+    "*.{json,md,y?(a)ml}": [
+      "prettier --write"
     ]
   },
   "jest": {
@@ -64,7 +62,7 @@
     "eslint": "6.8.0",
     "flow-bin": "0.116.1",
     "husky": "4.0.10",
-    "lint-staged": "9.5.0",
+    "lint-staged": "10.0.1",
     "prettier": "1.19.1"
   },
   "resolutions": {
