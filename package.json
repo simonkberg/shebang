@@ -66,6 +66,6 @@
     "prettier": "1.19.1"
   },
   "resolutions": {
-    "serialize-javascript": "2.1.2"
+    "serialize-javascript": "3.0.0"
   }
 }
