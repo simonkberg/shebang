@@ -43,27 +43,27 @@
   "dependencies": {
     "@emotion/core": "10.0.28",
     "@emotion/styled": "10.0.27",
-    "gatsby": "2.20.8",
-    "gatsby-plugin-flow": "1.2.1",
-    "gatsby-plugin-manifest": "2.3.3",
-    "gatsby-plugin-netlify": "2.2.1",
-    "gatsby-plugin-offline": "3.1.2",
-    "gatsby-plugin-react-helmet": "3.2.1",
-    "gatsby-plugin-sitemap": "2.3.1",
+    "gatsby": "2.20.26",
+    "gatsby-plugin-flow": "1.2.2",
+    "gatsby-plugin-manifest": "2.3.5",
+    "gatsby-plugin-netlify": "2.2.3",
+    "gatsby-plugin-offline": "3.1.4",
+    "gatsby-plugin-react-helmet": "3.2.4",
+    "gatsby-plugin-sitemap": "2.3.5",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-helmet": "5.2.1",
+    "react-helmet": "6.0.0",
     "sanitize.css": "11.0.0"
   },
   "devDependencies": {
     "@simonkberg/eslint-config": "21.0.1",
-    "babel-plugin-emotion": "10.0.29",
+    "babel-plugin-emotion": "10.0.33",
     "eslint": "6.8.0",
-    "flow-bin": "0.121.0",
-    "husky": "4.2.3",
-    "lint-staged": "10.1.1",
-    "prettier": "2.0.2"
+    "flow-bin": "0.123.0",
+    "husky": "4.2.5",
+    "lint-staged": "10.1.6",
+    "prettier": "2.0.4"
   },
   "resolutions": {
     "serialize-javascript": "3.0.0"
