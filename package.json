@@ -59,7 +59,7 @@
   "devDependencies": {
     "@simonkberg/eslint-config": "22.0.0",
     "babel-plugin-emotion": "10.0.33",
-    "eslint": "7.0.0",
+    "eslint": "7.1.0",
     "flow-bin": "0.124.0",
     "husky": "4.2.5",
     "lint-staged": "10.2.2",
