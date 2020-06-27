@@ -60,7 +60,7 @@
     "@simonkberg/eslint-config": "23.0.0",
     "babel-plugin-emotion": "10.0.33",
     "eslint": "7.2.0",
-    "flow-bin": "0.126.1",
+    "flow-bin": "0.128.0",
     "husky": "4.2.5",
     "lint-staged": "10.2.9",
     "prettier": "2.0.5"
