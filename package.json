@@ -63,7 +63,7 @@
     "flow-bin": "0.129.0",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
-    "prettier": "2.0.5"
+    "prettier": "2.1.2"
   },
   "resolutions": {
     "serialize-javascript": "4.0.0"
