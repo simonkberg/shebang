@@ -41,7 +41,7 @@
     ]
   },
   "dependencies": {
-    "@emotion/core": "10.0.35",
+    "@emotion/core": "10.1.1",
     "@emotion/styled": "10.0.27",
     "gatsby": "2.24.84",
     "gatsby-plugin-flow": "1.3.13",
