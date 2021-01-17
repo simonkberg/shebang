@@ -12,7 +12,6 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
-    'gatsby-plugin-flow',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

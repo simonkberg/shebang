@@ -16,7 +16,7 @@
     "prettier:check": "prettier --list-different '**/*.{js?(on),md,y?(a)ml}'",
     "prettier:format": "prettier --write '**/*.{js?(on),md,y?(a)ml}'",
     "start": "gatsby develop",
-    "test": "flow check && yarn eslint:check && yarn prettier:check"
+    "test": "yarn eslint:check && yarn prettier:check"
   },
   "husky": {
     "hooks": {
@@ -26,8 +26,7 @@
   "lint-staged": {
     "*.js": [
       "eslint --fix",
-      "prettier --write",
-      "flow focus-check"
+      "prettier --write"
     ],
     "*.{json,md,y?(a)ml}": [
       "prettier --write"
@@ -44,7 +43,6 @@
     "@emotion/core": "10.1.1",
     "@emotion/styled": "10.0.27",
     "gatsby": "2.30.3",
-    "gatsby-plugin-flow": "1.8.0",
     "gatsby-plugin-manifest": "2.10.0",
     "gatsby-plugin-netlify": "2.9.0",
     "gatsby-plugin-offline": "3.8.0",
@@ -60,7 +58,6 @@
     "@simonkberg/eslint-config": "24.0.0",
     "babel-plugin-emotion": "10.0.33",
     "eslint": "7.11.0",
-    "flow-bin": "0.129.0",
     "husky": "4.3.0",
     "lint-staged": "10.4.2",
     "prettier": "2.1.2"

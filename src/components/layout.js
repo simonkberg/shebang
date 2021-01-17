@@ -1,5 +1,5 @@
-// @flow strict
 import * as React from 'react'
+import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import styled from '@emotion/styled'
 import { Global, css } from '@emotion/core'
@@ -46,22 +46,7 @@ const Content = styled('div')`
   padding-top: 0;
 `
 
-type Props = {
-  children: React.Node,
-  location: { pathname: string },
-}
-
-type StaticQueryData = {
-  site: {
-    siteMetadata: {
-      siteUrl: string,
-      title: string,
-      description: string,
-    },
-  },
-}
-
-const Layout = ({ children, location }: Props) => (
+const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
@@ -74,7 +59,7 @@ const Layout = ({ children, location }: Props) => (
         }
       }
     `}
-    render={(data: StaticQueryData) => {
+    render={data => {
       const canonicalUrl = `${data.site.siteMetadata.siteUrl}${ensureNoSlash(
         location.pathname
       )}`
@@ -124,5 +109,12 @@ const Layout = ({ children, location }: Props) => (
     }}
   />
 )
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+  location: PropTypes.shape({
+    pathname: PropTypes.string.isRequired,
+  }).isRequired,
+}
 
 export default Layout
