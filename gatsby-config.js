@@ -8,6 +8,7 @@ module.exports = {
       'Fullstack web consulting, specialized in React, Node.js, and GraphQL, with a strong focus on building scalable frontend architecture.',
   },
   plugins: [
+    'gatsby-plugin-emotion',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
