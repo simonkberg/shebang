@@ -40,8 +40,8 @@
     ]
   },
   "dependencies": {
-    "@emotion/core": "10.1.1",
-    "@emotion/styled": "10.0.27",
+    "@emotion/core": "11.0.0",
+    "@emotion/styled": "11.0.0",
     "gatsby": "2.30.3",
     "gatsby-plugin-manifest": "2.10.0",
     "gatsby-plugin-netlify": "2.9.0",
