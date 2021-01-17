@@ -2,7 +2,7 @@ import * as React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import styled from '@emotion/styled'
-import { Global, css } from '@emotion/core'
+import { Global, css } from '@emotion/react'
 import { StaticQuery, graphql } from 'gatsby'
 import sanitize from '!raw-loader!sanitize.css'
 
