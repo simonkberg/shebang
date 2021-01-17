@@ -1,5 +1,5 @@
-// @flow strict
-import React from 'react'
+import * as React from 'react'
+import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import styled from '@emotion/styled'
 
@@ -27,21 +27,18 @@ const StyledLink = styled(Link)`
   text-decoration: none;
 `
 
-type Props = {
-  siteTitle: string,
-}
-
-const Header = ({ siteTitle }: Props) => (
+const Header = ({ siteTitle }) => (
   <Wrapper>
     <Container>
       <Title>
-        <StyledLink to="/">
-          #!/
-          {siteTitle}
-        </StyledLink>
+        <StyledLink to="/">#!/{siteTitle}</StyledLink>
       </Title>
     </Container>
   </Wrapper>
 )
+
+Header.propTypes = {
+  siteTitle: PropTypes.string.isRequired,
+}
 
 export default Header

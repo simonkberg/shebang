@@ -1,5 +1,5 @@
-// @flow strict
-import React from 'react'
+import * as React from 'react'
+import PropTypes from 'prop-types'
 import styled from '@emotion/styled'
 import Layout from '../components/layout'
 
@@ -12,11 +12,7 @@ const SubTitle = styled('span')`
   font-weight: normal;
 `
 
-type Props = {
-  location: { pathname: string },
-}
-
-const NotFoundPage = ({ location }: Props) => (
+const NotFoundPage = ({ location }) => (
   <Layout location={location}>
     <Title>
       /dev/null
@@ -24,5 +20,11 @@ const NotFoundPage = ({ location }: Props) => (
     </Title>
   </Layout>
 )
+
+NotFoundPage.propTypes = {
+  location: PropTypes.shape({
+    pathname: PropTypes.string.isRequired,
+  }).isRequired,
+}
 
 export default NotFoundPage

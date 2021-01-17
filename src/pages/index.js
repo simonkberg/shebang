@@ -1,5 +1,5 @@
-// @flow strict
-import React from 'react'
+import * as React from 'react'
+import PropTypes from 'prop-types'
 import styled from '@emotion/styled'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
@@ -8,21 +8,10 @@ const Link = styled('a')`
   color: inherit;
 `
 
-type Props = {
-  data: {
-    site: {
-      siteMetadata: {
-        description: string,
-      },
-    },
-  },
-  location: { pathname: string },
-}
-
 const email = 'simon@shebang.consulting'
 const website = 'simon.dev'
 
-const IndexPage = ({ data, location }: Props) => (
+const IndexPage = ({ data, location }) => (
   <Layout location={location}>
     <p>{data.site.siteMetadata.description}</p>
     <p>Located in Stockholm, Sweden.</p>
@@ -32,6 +21,19 @@ const IndexPage = ({ data, location }: Props) => (
     </p>
   </Layout>
 )
+
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        description: PropTypes.string.isRequired,
+      }).isRequired,
+    }).isRequired,
+  }).isRequired,
+  location: PropTypes.shape({
+    pathname: PropTypes.string.isRequired,
+  }).isRequired,
+}
 
 export default IndexPage
 
