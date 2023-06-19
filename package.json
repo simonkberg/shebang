@@ -57,10 +57,10 @@
   },
   "devDependencies": {
     "@simonkberg/eslint-config": "24.0.0",
-    "eslint": "7.23.0",
+    "eslint": "7.32.0",
     "husky": "4.3.8",
     "lint-staged": "10.5.4",
-    "prettier": "2.2.1"
+    "prettier": "2.8.8"
   },
   "resolutions": {
     "serialize-javascript": "5.0.1"
