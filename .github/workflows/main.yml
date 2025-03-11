@@ -9,7 +9,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: '14'
+          node-version: '22'
       - name: Install
         run: yarn install --frozen-lockfile
       - name: Test
